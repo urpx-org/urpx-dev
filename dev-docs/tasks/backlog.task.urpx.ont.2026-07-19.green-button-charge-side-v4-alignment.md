@@ -12,7 +12,7 @@ created: 1784419200000
 |-------|-------|
 | **Status** | **Closed — executed 2026-07-26** (see Closure below) |
 | **Assignment** | N/A — closed |
-| **Surface** | `skos/standards-integration/urpx-green-button-mappings.ttl` |
+| **Surface** | `dev-docs/assets/urpx-green-button-mappings.ttl` |
 | **Source** | Verification of the mappings file against the NAESB ESPI V4 XML schemas (`espi_v4.xsd`, `customer_v4.xsd`) |
 
 ## Closure (2026-08-28)

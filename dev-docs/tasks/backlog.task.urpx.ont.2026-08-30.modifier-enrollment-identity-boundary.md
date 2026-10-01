@@ -12,7 +12,7 @@ created: 1788134400000
 |-------|-------|
 | **Status** | Backlog — post-v0.4.0 |
 | **Assignment** | Unassigned — open for any working-group member to pick up |
-| **Surface** | `ontology/urpx-ontology.ttl`, `shacl/urpx-shacl.ttl`, `skos/standards-integration/urpx-green-button-mappings.ttl` |
+| **Surface** | `ontology/urpx-ontology.ttl`, `shacl/urpx-shacl.ttl`, `dev-docs/assets/urpx-green-button-mappings.ttl` |
 | **Source** | NAESB ESPI V4 `TariffRiderRefs` / `TariffRiderRef` (`espi_v4.xsd`) |
 | **Spec** | [spec.urpx.ont.049.modifier-enrollment-identity-boundary.md](../specs/spec.urpx.ont.049.modifier-enrollment-identity-boundary.md) |
 

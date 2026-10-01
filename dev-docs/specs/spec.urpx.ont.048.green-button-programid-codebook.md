@@ -13,7 +13,7 @@ created: 1788134400000
 | **Status** | Draft — unratified. Frames the design question; does not settle it. Not yet the delivery bundle a mint carries. |
 | **Assignee** | Unassigned — open for any working-group member to pick up |
 | **Target release** | Post-v0.4.0; not launch-gating |
-| **Targets (candidate, none authored here)** | `ontology/urpx-ontology.ttl`, `shacl/urpx-shacl.ttl`, `skos/standards-integration/urpx-green-button-mappings.ttl` |
+| **Targets (candidate, none authored here)** | `ontology/urpx-ontology.ttl`, `shacl/urpx-shacl.ttl`, `dev-docs/assets/urpx-green-button-mappings.ttl` |
 | **Design-pass task** | [backlog.task.urpx.ont.2026-08-30.green-button-programid-codebook.md](../tasks/backlog.task.urpx.ont.2026-08-30.green-button-programid-codebook.md) |
 | **Source** | NAESB ESPI V4 `ProgramIdMappings` / `programIdMapping` extension (`espi_v4.xsd`) |
 

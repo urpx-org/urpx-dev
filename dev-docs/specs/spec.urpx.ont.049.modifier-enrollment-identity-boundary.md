@@ -13,7 +13,7 @@ created: 1788134400000
 | **Status** | Draft — unratified. Frames the identity-boundary fork; does not rule it. Not yet the delivery bundle a mint or a widening carries. |
 | **Assignee** | Unassigned — open for any working-group member to pick up |
 | **Target release** | Post-v0.4.0; not launch-gating |
-| **Targets (candidate, none authored here)** | `ontology/urpx-ontology.ttl`, `shacl/urpx-shacl.ttl`, `skos/standards-integration/urpx-green-button-mappings.ttl` |
+| **Targets (candidate, none authored here)** | `ontology/urpx-ontology.ttl`, `shacl/urpx-shacl.ttl`, `dev-docs/assets/urpx-green-button-mappings.ttl` |
 | **Design-pass task** | [backlog.task.urpx.ont.2026-08-30.modifier-enrollment-identity-boundary.md](../tasks/backlog.task.urpx.ont.2026-08-30.modifier-enrollment-identity-boundary.md) |
 | **Source** | NAESB ESPI V4 `TariffRiderRefs` / `TariffRiderRef` (`espi_v4.xsd`) |
 

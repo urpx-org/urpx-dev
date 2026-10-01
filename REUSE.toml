@@ -40,3 +40,15 @@ path = ["dev-docs/samples/**/*.json", "dev-docs/samples/**/*.jsonld"]
 precedence = "override"
 SPDX-FileCopyrightText = "The URPX Authors"
 SPDX-License-Identifier = "CDLA-Permissive-2.0"
+
+# -----------------------------------------------------------------------------
+# Draft external-standard mapping profiles under dev-docs/assets: specification
+# text, licensed under the W3C Document License like the mapping profiles in the
+# standard repository. This entry must sit after the dev-docs/** rule above so
+# the aggregate Apache-2.0 rule does not add a second license to them.
+# -----------------------------------------------------------------------------
+[[annotations]]
+path = ["dev-docs/assets/urpx-green-button-mappings.ttl", "dev-docs/assets/urpx-lf-energy-mappings.ttl"]
+precedence = "override"
+SPDX-FileCopyrightText = "The URPX Authors"
+SPDX-License-Identifier = "W3C-20150513"

@@ -12,7 +12,7 @@ created: 1788203176000
 |-------|-------|
 | **Status** | Backlog — post-v0.4.0 |
 | **Assignment** | Unassigned — open for any WG member to pick up |
-| **Surface** | `skos/standards-integration/urpx-green-button-mappings.ttl`; possibly `ontology/urpx-ontology.ttl` (`urpx:Scenario` / `urpx:ServicePointProfile`) |
+| **Surface** | `dev-docs/assets/urpx-green-button-mappings.ttl`; possibly `ontology/urpx-ontology.ttl` (`urpx:Scenario` / `urpx:ServicePointProfile`) |
 | **Source** | NAESB ESPI V4 `PnodeRef` (`espi_v4.xsd`), reached from a usage point through `PnodeRefs` |
 
 ## Problem
