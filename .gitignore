@@ -1,0 +1,5 @@
+# SPDX-FileCopyrightText: The URPX Authors
+# SPDX-License-Identifier: Apache-2.0
+
+.DS_Store
+urpx-dev.code-workspace

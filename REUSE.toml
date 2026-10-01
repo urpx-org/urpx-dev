@@ -1,0 +1,42 @@
+version = 1
+
+# REUSE.toml: declarative license/copyright annotations for files that cannot
+# carry inline SPDX headers (JSON-LD data files cannot hold a comment header).
+#
+# This repository carries the design and process record. Prose, source, and
+# meta files are Apache-2.0. Worked sample instances under dev-docs/samples
+# are data, licensed CDLA-Permissive-2.0 like the datasets in the standard
+# repository's test-cases/.
+
+# -----------------------------------------------------------------------------
+# Binary raster images, SVG diagrams, and their Graphviz DOT sources.
+# -----------------------------------------------------------------------------
+[[annotations]]
+path = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.svg", "**/*.dot"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "The URPX Authors"
+SPDX-License-Identifier = "Apache-2.0"
+
+# -----------------------------------------------------------------------------
+# Development documents and JSON manifests (JSON cannot carry a comment
+# header): Apache-2.0 alongside the rest of the repository's prose and
+# tooling.
+# -----------------------------------------------------------------------------
+[[annotations]]
+path = ["dev-docs/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "The URPX Authors"
+SPDX-License-Identifier = "Apache-2.0"
+
+# -----------------------------------------------------------------------------
+# Worked sample instances under dev-docs/samples, synthetic data accompanying
+# development specifications, licensed as data like the shipped test-case
+# datasets in the standard repository.
+# This entry must sit after the dev-docs/** rule above: REUSE.toml resolves
+# by last-matching block, not by specificity.
+# -----------------------------------------------------------------------------
+[[annotations]]
+path = ["dev-docs/samples/**/*.json", "dev-docs/samples/**/*.jsonld"]
+precedence = "override"
+SPDX-FileCopyrightText = "The URPX Authors"
+SPDX-License-Identifier = "CDLA-Permissive-2.0"
