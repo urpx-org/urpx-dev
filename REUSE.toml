@@ -52,3 +52,16 @@ path = ["dev-docs/assets/urpx-green-button-mappings.ttl", "dev-docs/assets/urpx-
 precedence = "override"
 SPDX-FileCopyrightText = "The URPX Authors"
 SPDX-License-Identifier = "W3C-20150513"
+
+# -----------------------------------------------------------------------------
+# The design-decision logs under dev-docs/decisions: specification text,
+# licensed under the W3C Document License like the documentation pages in the
+# standard repository they were published with. This entry must sit after the
+# dev-docs/** rule above so the aggregate Apache-2.0 rule does not add a second
+# license to them.
+# -----------------------------------------------------------------------------
+[[annotations]]
+path = ["dev-docs/decisions/urpx-design-decisions-*.md"]
+precedence = "override"
+SPDX-FileCopyrightText = "The URPX Authors"
+SPDX-License-Identifier = "W3C-20150513"
