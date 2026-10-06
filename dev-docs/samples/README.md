@@ -17,6 +17,7 @@ The sets here exercise **proposed** vocabulary from specifications still under r
 | [`pge-nbt-export-series/`](pge-nbt-export-series/) | spec 042 | Hourly export compensation as a price series — the extrapolated form of values a plan package marks as resolved externally; weekday/weekend day typing; credits as negative unit prices. |
 | [`pge-b6-pdp-event/`](pge-b6-pdp-event/) | specs 041, 042, 043 | A time-of-use plan with an event-triggered critical peak adder expressed as a conditional value expression, plus the adder in extrapolated form for one event day. |
 | [`midas-transform/`](midas-transform/) | spec 044 | The PG&E export series transformed to a California MIDAS v2.0 upload payload, demonstrating the field mapping and the credit sign flip. |
+| [`service-bracket-offset/`](service-bracket-offset/) | [urpx-org/urpx#80](https://github.com/urpx-org/urpx/pull/80) | A rate plan modifier that raises the bounds of another plan's baseline tiers with bound offsets (the PG&E medical baseline quantity over E-TOU-C), plus negative cases. |
 
 ## Conventions
 
