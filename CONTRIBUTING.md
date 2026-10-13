@@ -5,11 +5,20 @@
 
 Thank you for your interest in contributing to the URPX design and process record. This repository holds the working group's tasks, specifications, working reports, roadmaps, review materials, the design-decision log, and worked sample instances. It is developed under the Linux Foundation Energy Standards and Specifications (LFESS) Working Group process, alongside the standard itself in [`urpx-org/urpx`](https://github.com/urpx-org/urpx).
 
+## General expectations
+
+All issues, pull requests, and other repository submissions must be written and reviewed by the person submitting them.
+
+Do not submit content that is fully AI-generated, overly verbose, speculative, or padded with background material that is not necessary to evaluate the request. Submissions that appear to be fully AI-generated or unnecessarily long may be closed without review. They may be re-submitted in a concise and actionable form.
+
+AI-generated or AI-assisted drafting does not excuse the submitter from understanding the proposal, checking it for accuracy, and reducing it to the information needed by the working group.
+
 ## Licensing of contributions
 
 By contributing to this repository you agree that your contribution is licensed under the terms that apply to the corresponding file category:
 
-- **Prose, source, and meta files:** the Apache License, Version 2.0. See [LICENSE](LICENSE).
+- **Prose, source, and meta files**, including the worked-sample READMEs: the Apache License, Version 2.0. See [LICENSE](LICENSE).
+- **The design-decision logs** under `dev-docs/decisions/` and **the draft standards-integration mappings** under `dev-docs/assets/`: the W3C Software Notice and Document License ([W3C-20150513](LICENSES/W3C-20150513.txt)), as specification text.
 - **Worked sample instances** under `dev-docs/samples/`: the Community Data License Agreement - Permissive 2.0 (CDLA-Permissive-2.0).
 
 ## Developer Certificate of Origin (DCO)

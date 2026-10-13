@@ -11,7 +11,7 @@ created: 1784073600000
 | Field | Value |
 |-------|-------|
 | **Status** | Backlog — next up. Ready to execute; gated on the working group's formal acceptance of URPX as a Draft. |
-| **Runbook** | [TRANSITION.md](../../TRANSITION.md) — the full plan, the file-classification manifest, and the step-by-step procedure. |
+| **Runbook** | [TRANSITION.md](https://github.com/urpx-org/urpx/blob/main/TRANSITION.md) — the full plan, the file-classification manifest, and the step-by-step procedure. |
 | **Surface** | SPDX headers and `.license` sidecars across `ontology/`, `shacl/`, `skos/`, and `documentation/`; dataset files under `test-cases/`; `REUSE.toml`; `LICENSES/`; `TRANSITION.md`. No ontology or SHACL semantics change. |
 
 ## Problem
@@ -27,7 +27,7 @@ runbook.
 
 ## Approach
 
-Follow the procedure in [TRANSITION.md](../../TRANSITION.md) §4:
+Follow the procedure in [TRANSITION.md](https://github.com/urpx-org/urpx/blob/main/TRANSITION.md) §4:
 
 1. Record the acceptance date and the working group decision reference.
 2. Preview the transition (`python3 scripts/transition-license.py`) and confirm

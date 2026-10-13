@@ -10,7 +10,7 @@ created: 1786320000000
 
 **Status: superseded.** This report preserves the hash-namespace proposal considered in August 2026; it is not current implementation guidance. URPX v0.5.0 instead adopted slash identifiers under `https://urpx.org/ns/ontology/` and `https://urpx.org/ns/shacl/core/`. The directory-per-identifier site is generated with [Semantic Flow](https://github.com/semantic-flow/weave), with GitHub Pages as the static host and `urpx.org` as the canonical domain. `Accept`-header content negotiation is not required.
 
-Current release and publication instructions are in [the release runbook](../release-runbook.md) and [the v0.5.0 release notes](../../documentation/pages/urpx-release-notes-v0.5.0.md). Everything below is the preserved superseded proposal.
+Current release and publication instructions are in [the release runbook](../release-runbook.md) and [the v0.5.0 release notes](https://github.com/urpx-org/urpx/blob/main/documentation/pages/urpx-release-notes-v0.5.0.md). Everything below is the preserved superseded proposal.
 
 **The change.** URPX term identifiers become fragments of a single vocabulary document — `https://urpx.org/ns/urpx#RatePlan` — instead of one web resource per term, `https://urpx-org.github.io/urpx/ontology/RatePlan/`. It lands at v0.4.0, in the same release that moves the identifiers to urpx.org, so there is one identifier change rather than two. The model does not change: same classes, same properties, same local names.
 

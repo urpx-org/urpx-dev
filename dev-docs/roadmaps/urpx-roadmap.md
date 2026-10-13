@@ -22,7 +22,7 @@ In order:
    starting point and authorizes publication, recorded in the meeting minutes. A
    formal ballot is not required (see [GOVERNANCE.md](../../GOVERNANCE.md)).
 3. **License conversion.** Specification files move to the W3C Document License and
-   datasets to CDLA-Permissive-2.0, per [TRANSITION.md](../../TRANSITION.md).
+   datasets to CDLA-Permissive-2.0, per [TRANSITION.md](https://github.com/urpx-org/urpx/blob/main/TRANSITION.md).
    Source and meta files stay Apache-2.0.
 4. **Licensing and IP review.** The converted materials pass an LF Energy IP scan.
 5. **Public release.** The repository and the documentation site are published,
@@ -71,7 +71,7 @@ tracked as tasks under [`dev-docs/tasks/`](../tasks/).
 ## How to get involved
 
 - Join the mailing list: [urpx-wg@lists.lfenergy.org](https://lists.lfenergy.org/g/urpx-wg).
-- Open an issue using one of the [issue templates](../../.github/ISSUE_TEMPLATE/) —
+- Open an issue using one of the [issue templates](https://github.com/urpx-org/urpx/tree/main/.github/ISSUE_TEMPLATE/) —
   a bug report, a question, or a term proposal.
 - See [CONTRIBUTING.md](../../CONTRIBUTING.md) and [AGENTS.md](../../AGENTS.md) for how
   changes are proposed and reviewed.

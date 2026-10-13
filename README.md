@@ -42,7 +42,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and [AGENTS.md](AGENTS.md).
 
 ## License
 
-Prose, source, and meta files are licensed under the Apache License, Version 2.0. Worked sample instances under `dev-docs/samples/` are data, licensed under the Community Data License Agreement - Permissive 2.0 (CDLA-Permissive-2.0). See [NOTICE](NOTICE), [LICENSE](LICENSE), and `LICENSES/` for the CDLA-Permissive-2.0 text.
+Three licenses apply by file category. Prose, source, and meta files, including the worked-sample READMEs, are licensed under the Apache License, Version 2.0. The design-decision logs under `dev-docs/decisions/` and the draft standards-integration mappings under `dev-docs/assets/` are specification text, licensed under the W3C Software Notice and Document License ([W3C-20150513](LICENSES/W3C-20150513.txt)). Worked sample instances under `dev-docs/samples/` are data, licensed under the Community Data License Agreement - Permissive 2.0 (CDLA-Permissive-2.0). See [NOTICE](NOTICE), [LICENSE](LICENSE), and `LICENSES/` for the full texts.
 
 Contributions are governed by the Developer Certificate of Origin v1.1. See [CONTRIBUTING.md](CONTRIBUTING.md).
 

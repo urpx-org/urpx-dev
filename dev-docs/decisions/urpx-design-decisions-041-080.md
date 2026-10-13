@@ -1255,7 +1255,6 @@ Create a dedicated enhancement log to track and implement inverse properties in 
 The v0.1.1 release is focused on consolidation and cleanup. Adding new properties now introduces unnecessary risk. Logging them as a formal enhancement ensures they are prioritized for the next iteration.
 
 **Implementation Details:**
-- Created a backlog entry tracking "Inverse Property Implementation".
 - Documented key relationships needing inverses:
     - `urpx:hasRatePlan` <-> `urpx:isRatePlanOf` (suggested)
     - `urpx:hasPrice` <-> `urpx:isPriceOf` (suggested)
