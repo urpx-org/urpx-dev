@@ -3609,8 +3609,6 @@ Identified 13 additional vocabulary reuse opportunities beyond the 3 core proper
   - Schema.org validFrom/validThrough semantically close but may lack regulatory precision
   - Deferred to future version for legal review and stakeholder input
 
-**CSV Tracker:**
-Generated a comprehensive tracker.
 - 16 rows documenting all property replacements
 - 3 COMPLETED replacements (name, description, priceCurrency)
 - 8 PLANNED replacements for Phase 2
@@ -3642,7 +3640,6 @@ Generated a comprehensive tracker.
 - Vocabulary Reuse (Schema.org Integration)
 - Replace Core Properties & Comprehensive Scan
 - Vocabulary Reuse Scan Results
-- CSV Tracker
 
 ---
 
